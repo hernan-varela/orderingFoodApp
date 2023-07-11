@@ -1,0 +1,28 @@
+.contHeader{
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    height: 7%;
+    background-color: rgba(0, 0, 0, 0.748);
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    height: 90%;
+    margin: 1%;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+}
+
+.options div{
+
+    flex-direction: row;
+    margin: 5%;
+    width: 8rem;
+}
