@@ -1,12 +1,12 @@
 import './App.css';
-import Header from './components/Header/header';
+import Navigation from './navigation/index.jsx';
 
 function App() {
 
 
   return (
     <>
-      <Header />
+     <Navigation />
      
     </>
   )
