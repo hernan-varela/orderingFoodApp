@@ -12,6 +12,11 @@
   height: 6rem;
   margin-top: 50px;
   margin-left: 20px;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
 }
 
 .options {
@@ -42,12 +47,18 @@
   transition: width 0.3s ease;
 }
 
+.link.active {
+  color: #00ffbf;
+}
+
+.link.active::after {
+  width: 100%;
+}
+
 .link:hover {
   color: #00ffbf;
 }
 
 .link:hover::after {
   width: 100%;
-  background-color: #00ffbf;
-  box-shadow: 0 0 10px #00ffbf, 0 0 20px #00ffbf, 0 0 30px #00ffbf;
 }

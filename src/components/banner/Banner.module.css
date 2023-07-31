@@ -1,0 +1,48 @@
+*{color: white}
+.banner {
+    display: flex;
+    align-items: center;
+  }
+  
+  .description {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .imageContainer {
+    flex: 1;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  
+  .image {
+    width: 40%;
+    height: auto;
+  }
+  
+  .button {
+    background-color: transparent; /* Quitamos el color de fondo */
+    color: white; /* Cambiamos el color del texto a blanco */
+    font-weight: bolder;
+    border: 2px solid #00ffbf; /* Borde del color que proporcionaste (#00ffbf) */
+    border-radius: 30px;
+    padding: 12px 20px;
+  
+    /* Transiciones para el efecto hover */
+    transition: box-shadow 0.2s, text-shadow 0.2s, border-color 0.2s;
+  }
+  
+  .button:hover {
+    color: #00ffbf; /* Cambiamos el color del texto al color que proporcionaste (#00ffbf) al pasar el mouse por encima */
+    box-shadow: 0 0 5px #00ffbf, 0 0 10px #00ffbf, 0 0 20px #00ffbf; /* Efecto de neon más pequeño */
+    text-shadow: 0 0 5px #00ffbf; /* Efecto de neon en el texto más pequeño */
+    cursor: pointer;
+    border-color: #00ffbf; /* Cambiamos el color del borde al pasar el mouse por encima */
+  }
+  
+  
+  
+
+  
+  
